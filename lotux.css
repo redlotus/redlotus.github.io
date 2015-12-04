@@ -1,0 +1,47 @@
+/* use Oxygen as default font */
+
+@import "https://fonts.googleapis.com/css?family=Oxygen";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: oxygen;
+}
+a {
+    text-decoration: none;
+    color: #3d92c9;
+    border-bottom: #dddddd 1px solid;
+}
+a:hover {
+    color: #444444;
+    border-bottom: #000000 1px solid;
+}
+
+/* LAYOUT CSS */
+.fpage-main {
+    width: 240px; 
+    height: 100px; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    text-align: center;
+}
+.fpage-foot {
+    color: #999999;
+    font-size: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+.resume {
+    max-width: 750px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
